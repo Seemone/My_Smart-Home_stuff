@@ -39,8 +39,8 @@ template:
       input:
       temperature: #weather-station-or-forecast-or-room-temperature
       relative_humidity: #weather-station-or-forecast-or-room-humidity
-  name: Absolute Humidity #outside-or-room-name
-  unique_id: absolute_humidity_ #outside-or-room-name
+    name: Absolute Humidity #outside-or-room-name
+    unique_id: absolute_humidity_ #outside-or-room-name
 ```
 Obviously you need to fill the correct entity-id for each input sensor. You can set up one sensor for each area you want to track (outside, living room, bedroom, bath, ...).
 
